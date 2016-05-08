@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="200dp">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/imageView_cover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/bg"
+        android:gravity="center"
+        android:text="New Text"
+         android:textSize="12sp" />
+
+</RelativeLayout>
+
+

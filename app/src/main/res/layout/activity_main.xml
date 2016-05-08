@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#a1a8af"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <org.net.sunger.widget.GalleryView
+        app:itemWidth="150dp"
+         android:id="@+id/recyclerview"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"></org.net.sunger.widget.GalleryView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="↑"
+        android:id="@+id/textView"
+        android:layout_below="@+id/recyclerview"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/imageView_cover"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+         android:gravity="center"
+         android:src="@mipmap/a"
+        android:textSize="12sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_name"
+        android:layout_below="@+id/imageView_cover"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
