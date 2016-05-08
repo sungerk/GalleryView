@@ -1,5 +1,9 @@
 # GalleryView
  A widget like gallery which base on RecyclerView
+ ###Demo Video
+ [![](http://img.youtube.com/vi/zILgoahyfjw/0.jpg)]( https://youtu.be/zILgoahyfjw)
+
+
 ##how to use?
 
 1.set the GalleryView layout xml,like this
