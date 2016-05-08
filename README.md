@@ -3,7 +3,7 @@
 ##how to use?
 
 1.set the GalleryView layout xml,like this
-*must set the app:itemWidth 
+* must set the app:itemWidth 
 ```xml
   <org.net.sunger.widget.GalleryView
         app:itemWidth="150dp"
@@ -16,7 +16,7 @@
         android:layout_alignParentStart="true"></org.net.sunger.widget.GalleryView>
 ```
 2.set the item layout xml
-*set the width must be a accurate numerical value
+* set the width must be a accurate numerical value
 
 3.callback
 
