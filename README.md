@@ -1,6 +1,6 @@
 # GalleryView
  A widget like gallery which base on RecyclerView
- ###Demo Video
+ ##Demo Video
  [![](http://img.youtube.com/vi/zILgoahyfjw/0.jpg)]( https://youtu.be/zILgoahyfjw)
 
 
